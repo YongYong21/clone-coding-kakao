@@ -2,15 +2,15 @@
 
 ## 원본 주소 및 클론코딩 주소
 
-원본주소 : https://www.kakaocorp.com/page/
+원본주소(카카오 페이지) : https://www.kakaocorp.com/page/
+<br>
 클론코딩 주소 : https://fantastic-cat-71b104.netlify.app/
 
 ## 사용 언어
 HTML, CSS, JavaScript
 
 ## 라이브러리
-Font Awesome
-https://fontawesome.com/
+Font Awesome: https://fontawesome.com/
 
 ## 기능 구현
 ### - HTML

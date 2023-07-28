@@ -489,6 +489,9 @@
         position: sticky;
         top: 100px;
     }
+    .item-big-container .title-container {
+        height: 96px;
+    }
     .item-small-container {
         width: 33%;
         display:block;
@@ -656,6 +659,9 @@
     }
     .title-container {
         font-size: 26px;
+    }
+    .item-big-container .title-container {
+        height: auto;
     }
     .item-big-container {
         height: auto;

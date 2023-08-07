@@ -161,6 +161,10 @@
         width: 100%;
         cursor: pointer;
     }
+    .custom-service-title span:hover::before {
+        display: none;
+    }
+
     .termsOfUse-container {
         width: 100%;
         margin-top: 45px;
@@ -178,6 +182,7 @@
         margin-top: 58px;
         margin-left: 0px;
     }
+    
 }
 @media (max-width: 766px) {
     .footer-container {

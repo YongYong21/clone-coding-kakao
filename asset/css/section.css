@@ -4,12 +4,34 @@
     margin: 0 auto;
 }
 
+.calender-header {
+    width: 100%;
+    position: fixed;
+    display: none;
+    z-index: 99;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.calender-header .header-container {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #000;
+    justify-content: left;
+}
+.header-container img {
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+}
 .calendar {
     background-image: url("https://www.kakaocorp.com/page/calendar/light/ico_date25.gif");
     background-repeat: no-repeat;
     background-size: 132px;
     background-position: left bottom;
 }
+
 
 .text {
     padding-top: 96px;

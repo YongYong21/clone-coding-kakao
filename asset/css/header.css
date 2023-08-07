@@ -1,5 +1,17 @@
+.header-box {
+    height: 72px;
+    margin-bottom: 1px;
+}
 header {
     width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    transition: top 0.2s;
+}
+
+.brd-bt {
+    border-bottom: 1px solid #eee;
 }
 .header-container {
     width: 1296px;
@@ -15,11 +27,17 @@ header {
 .header-menu {
     display: flex;
 }
+.header-menu:hover li{
+    color: #888;
+}
 .header-menu > li {
     font-weight: 700;
     padding: 0px 28px;
     cursor: pointer;
     position: relative; 
+}
+.header-menu > li:hover  {
+    color: #333;
 }
 .submenu {
     display: none;
@@ -30,11 +48,14 @@ header {
     background-color: #000;
     white-space: nowrap;
     box-sizing: border-box;
+    z-index: 5;
 }
 
 .submenu li {
     display: inline-block;
+    cursor: pointer;
 }
+
 .submenu li + li {
     margin-left: 24px;
 
@@ -46,9 +67,6 @@ header {
     color: #eee;
 }
 .submenu li a:hover{
-    display: block;
-    padding: 11px 0 13px;
-    line-height: 24px;
     color: #fff;
 }
 
@@ -69,8 +87,8 @@ button {
 }
 .hidden-menu {
     display: none;
-
 }
+
 @media (max-width: 1440px) {
     .header-container {
         width: 952px;

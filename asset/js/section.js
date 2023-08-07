@@ -16,4 +16,5 @@ const changeDate = document.getElementsByClassName('calendar')[0];
 changeDate.style.backgroundImage = `url(https://www.kakaocorp.com/page/calendar/light/ico_date${day}.gif)`;
 changeDate.innerHTML = changeDate.innerHTML.replace('7월 25일', `${month}월 ${day}일`);
 
-
+const changeImg = document.querySelector('.header-container > img')
+changeImg.src = `https://www.kakaocorp.com/page/calendar/light/ico_date${day}.gif`

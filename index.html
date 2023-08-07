@@ -28,61 +28,72 @@
 
   <body>
     <div class="container">
-      <header>
+      <div class="header-box">
+        <header>
+          <div class="header-container">
+            <div class="header-container-left">
+              <a href="main.html"><span class="header-text">KaKao</span></a>
+            </div>
+            <div class="header-container-center">
+              <nav>
+                <ul class="header-menu">
+                  <li>
+                    <span>소개</span>
+                    <ul class="submenu">
+                      <li><a href="#">카카오문화</a></li>
+                      <li><a href="#">공동체</a></li>
+                      <li><a href="#">연혁</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span>이야기</span>
+                    <ul class="submenu">
+                      <li><a href="#">콘텐츠 저장소</a></li>
+                      <li><a href="#">뚝딱뚝딱 성장기</a></li>
+                      <li><a href="#">숫자로 보는 카카오</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span>뉴스</span>
+                  </li>
+                  <li>
+                    <span>기술과 서비스</span>
+                    <ul class="submenu">
+                      <li><a href="#">기술</a></li>
+                      <li><a href="#">서비스</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span>약속과 책임</span>
+                    <ul class="submenu">
+                      <li><a href="#">카카오의 다짐</a></li>
+                      <li><a href="#">ESG</a></li>
+                      <li><a href="#">액티브그린</a></li>
+                      <li><a href="#">디지털 권리</a></li>
+                      <li><a href="#">AI 윤리</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header-container-right">
+              <button>
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+              </button>
+              <button><i class="fa-solid fa-globe fa-xl"></i></button>
+              <button><i class="fa-regular fa-moon fa-xl"></i></button>
+              <button class="hidden-menu">
+                <i class="fa-solid fa-burger fa-xl"></i>
+              </button>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="calender-header brd-bt">
         <div class="header-container">
-          <div class="header-container-left">
-            <a href="main.html"><span class="header-text">KaKao</span></a>
-          </div>
-          <div class="header-container-center">
-            <nav>
-              <ul class="header-menu">
-                <li>
-                  <span>소개</span>
-                  <ul class="submenu">
-                    <li><a href="#">카카오문화</a></li>
-                    <li><a href="#">공동체</a></li>
-                    <li><a href="#">연혁</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <span>이야기</span>
-                  <ul class="submenu">
-                    <li><a href="#">콘텐츠 저장소</a></li>
-                    <li><a href="#">뚝딱뚝딱 성장기</a></li>
-                    <li><a href="#">숫자로 보는 카카오</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <span>뉴스</span>
-                </li>
-                <li>
-                  <span>기술과 서비스</span>
-                  <ul class="submenu">
-                    <li><a href="#">기술</a></li>
-                    <li><a href="#">서비스</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <span>약속과 책임</span>
-                  <ul class="submenu">
-                    <li><a href="#">카카오의 다짐</a></li>
-                    <li><a href="#">ESG</a></li>
-                    <li><a href="#">액티브그린</a></li>
-                    <li><a href="#">디지털 권리</a></li>
-                    <li><a href="#">AI 윤리</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header-container-right">
-            <button><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
-            <button><i class="fa-solid fa-globe fa-xl"></i></button>
-            <button><i class="fa-regular fa-moon fa-xl"></i></button>
-            <button class="hidden-menu"><i class="fa-solid fa-burger fa-xl"></i></button>
-          </div>
+          <img src="https://www.kakaocorp.com/page/calendar/light/ico_date25.gif" alt="캘린더">카카오 소식
         </div>
-      </header>
+      </div>
       <main>
         <section>
           <div class="section-container">
@@ -93,7 +104,6 @@
               >
             </h3>
             <article class="item">
-              
               <div class="article-container">
                 <!--item-big-box-->
                 <div class="item-big-container">
@@ -406,8 +416,10 @@
                     </div>
                   </div>
                   <!---->
-                  <div class="item-small-box" 
-                      style="position: absoulute; left:352px">
+                  <div
+                    class="item-small-box"
+                    style="position: absoulute; left: 352px"
+                  >
                     <div class="info-container">
                       <div class="notice"></div>
                       <span class="chat">보도자료</span>
@@ -556,7 +568,8 @@
                     <div class="title-container-small">
                       <a href="#"
                         ><strong
-                          >카카오, 한국콘텐츠진흥원과 콘텐츠 IP 산업 동반 성장 위한 업무협약 체결</strong
+                          >카카오, 한국콘텐츠진흥원과 콘텐츠 IP 산업 동반 성장
+                          위한 업무협약 체결</strong
                         ></a
                       >
                     </div>
@@ -580,9 +593,7 @@
                     </div>
                     <div class="title-container-small">
                       <a href="#"
-                        ><strong
-                          >200만 명이 <br>선택한 실험실</strong
-                        ></a
+                        ><strong>200만 명이 <br />선택한 실험실</strong></a
                       >
                     </div>
                     <div class="tag-container-small">
@@ -632,13 +643,21 @@
                     </div>
                     <div class="title-container-small">
                       <a href="#"
-                        ><span class='stock-span'>
-                          50,600 <span style="font-size:14px; vertical-align: top; color: #ff3b3b; font-weight: bold;">
+                        ><span class="stock-span">
+                          50,600
+                          <span
+                            style="
+                              font-size: 14px;
+                              vertical-align: top;
+                              color: #ff3b3b;
+                              font-weight: bold;
+                            "
+                          >
                             <i class="fa-solid fa-arrow-up"></i>
-                            2800</span>
+                            2800</span
+                          >
                         </span>
-                        </a
-                      >
+                      </a>
                     </div>
                     <div class="tag-container-small">
                       <span class="tag-small">2023.07.27 16:37PM</span>
@@ -674,7 +693,7 @@
                         alt="이미지"
                     /></a>
                     <button class="item-btn">
-                      <svg  
+                      <svg
                         width="20"
                         height="20"
                         style="display: flex; align-items: center"

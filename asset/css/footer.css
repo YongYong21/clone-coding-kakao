@@ -111,6 +111,7 @@
 .block-box {
     display: block;
 }
+
 @media (max-width: 1440px) {
     .footer-container {
         width: 952px;
@@ -196,4 +197,7 @@
         width: 100%;
     }
 
+}
+.show {
+    display: block;
 }

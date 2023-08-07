@@ -22,18 +22,19 @@ Font Awesome: https://fontawesome.com/
 * 반응형 디자인 
 * Flex를 이용하여 레이아웃 구성
 * a태그의 속성 href를 통해 외부사이트 연결 (_blank)
+* Header Nav의 각 메뉴마다 Hover시 다른 메뉴들의 Color 변경 
+
 ### - JavaScript
 * 메뉴 클릭 시 열려있던 서브메뉴는 닫히고, 새로운 서브메뉴가 보입니다.
 * 달력 이미지 및 텍스트가 현재 날짜에 맞춰서 보입니다.
 * Scroll to top 구현
-
-### 기능 구현 못한 부분
-* Header Nav의 각 메뉴마다 Hover시 다른 메뉴들의 Color 변경 (자바스크립트)
-* Header Nav의 돋보기 버튼 클릭시 모듈 창 생성 및 메인 페이지 영향 (자바스크립트)
-* Header Nav 다국어 페이지 이모티콘 (자바스크립트 및 .Json)
-* Header Nav 다크모드 토글버튼 (자바스크립트)
 * 스크롤 이벤트 리스너(Nav와 Calender)
 * max-width 1024px일 때, Footer 메뉴 클릭 시 메뉴 버튼 보이기(자바스크립트)
+
+### 기능 구현 못한 부분
+* Header Nav의 돋보기 버튼 클릭시 모듈 창 생성 및 메인 페이지 영향 (자바스크립트)
+* Header Nav 다국어 페이지 이모티콘 (자바스크립트 및 .Json)
+* Header Nav 다크모드 기능 (자바스크립트)
 
 ## 유의사항
 

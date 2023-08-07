@@ -29,7 +29,7 @@ Font Awesome: https://fontawesome.com/
 * 달력 이미지 및 텍스트가 현재 날짜에 맞춰서 보입니다.
 * Scroll to top 구현
 * 스크롤 이벤트 리스너(Nav와 Calender)
-* max-width 1024px일 때, Footer 메뉴 클릭 시 메뉴 버튼 보이기(자바스크립트)
+* max-width 1024px일 때, Footer 메뉴 클릭 시 메뉴 버튼 보이기 (첫 렌더링 페이지 기준)
 
 ### 기능 구현 못한 부분
 * Header Nav의 돋보기 버튼 클릭시 모듈 창 생성 및 메인 페이지 영향 (자바스크립트)
